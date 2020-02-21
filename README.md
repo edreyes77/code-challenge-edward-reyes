@@ -6,6 +6,7 @@ Welcome to **Eog Resources** Code Challenge!!!
 - **15 minutes before the code challenge**: you will receive an email which allows you to access to this repo. You will have 15 minutes to read through instruction and be ready for the challenge.
 - You will have **2 hours** to finish code challenge on _your machine_.
 - **15 munites after the code challenge**: you will have to **commit code** to this repo so we can evaluate your skillset.
+
 Total time: **2.5 hours**
 
 _**Warning:**_ any commit/modification after allowed time will be considered as not-finish.
