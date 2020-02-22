@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="OnLoaded">
     <Grid>
-        <ComboBox x:Name="NumberOfPlayers" ItemsSource="{Binding Path=Model.Setting.NumberOfPlayers}"
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="NumberOfPlayers" Grid.Row="0" HorizontalAlignment="Left"  Margin="12 12 0 0" ItemsSource="{Binding Path=Model.Setting.NumberOfPlayers}" Width="150" Height="25"/>
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LCR.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace LCR
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new C();
+            DataContext = new Bridge();
         }
 
         private void OnLoaded(object sender, RoutedEventArgs e)
