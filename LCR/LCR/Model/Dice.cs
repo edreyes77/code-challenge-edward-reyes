@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LCR.ViewModel
+namespace LCR.Model
 {
-    class LCR
+    public class Dice : ModelBase
     {
     }
 }

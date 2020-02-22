@@ -23,6 +23,8 @@ namespace LCR.Model
                     OnPropertyChanged(nameof(NumberOfSelections));
                 }
             }
+
+            get => _numberOfSelections;
         }
     }
 }

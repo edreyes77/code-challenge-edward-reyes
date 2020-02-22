@@ -55,9 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Dice.cs" />
     <Compile Include="Model\ModelBase.cs" />
     <Compile Include="Model\Settings.cs" />
-    <Compile Include="ViewModel\LCR.cs" />
+    <Compile Include="ViewModel\LCRViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

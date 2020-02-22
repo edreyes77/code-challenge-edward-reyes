@@ -23,6 +23,12 @@ namespace LCR
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new C();
+        }
+
+        private void OnLoaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LCR"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="OnLoaded">
     <Grid>
         <ComboBox x:Name="NumberOfPlayers" ItemsSource="{Binding Path=Model.Setting.NumberOfPlayers}"
     </Grid>
